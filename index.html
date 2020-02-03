@@ -13,10 +13,20 @@
         <h1 class="title">Dead Pixel Checker</h1>
         <div class="app">
             <div class="app-desktop">
-                <img src="desktop.png" alt="desktop" class="app-img">
-                <button class="btn">Launch</button>
+                <!-- <img src="desktop.png" alt="desktop" class="app-img"> -->
+                <div class="desktop-screen">
+                    <span id="screenColor" class="desktop-screenColor"></span>
+                </div>
+                <div class="desktop-ctrl"></div>
+                <div class="desktop-base"></div>
             </div>
+            <button id="app-btn" class="btn">Launch</button>
+            <div id="app-test" class="app-test"></div>
         </div>
     </main>
+
+    <!-- JS -->
+    <script src="main.js"></script>
+    <script src="deadPixels.js"></script>
 </body>
 </html>
